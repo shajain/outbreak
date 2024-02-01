@@ -12,7 +12,7 @@ import pdb
 
 
 class ProMed:
-    FIELDS = {'ID': 'Int64', 'outbreakName': 'string[pyarrow]', 'outbreakNameStd': 'string[pyarrow]',
+    FIELDS = {'ID': 'Int64', 'archiveNumber': 'string[pyarrow]', 'outbreakName': 'string[pyarrow]', 'outbreakNameStd': 'string[pyarrow]',
               'countries': 'string[pyarrow]', 'states': 'string[pyarrow]',
               'datePublished': 'datetime64[ns]'}
 
@@ -106,7 +106,11 @@ class ProMed:
 
     def getSubject(self, IDs):
 
+        return
+
     def getBody(self, IDs):
+
+        return
 
     def getAllOutBreakNames(self):
         # returns a list of all outBreakNames
